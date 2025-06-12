@@ -6,11 +6,14 @@
 ________________________________________
 二、项目阐述
 本项目通过调用讯飞星火认知大模型提供的机器翻译 WebAPI，实现了一种轻量级、便捷的命令行翻译工具，支持 UNIX 管道操作。用户可以通过如下命令实现英文文档的快速翻译：
-cat README | python3 ~/spark_trans.py
+```sh
+cat example | python3 spark_trans.py
+```
 cat {你的文件名} | python3 {你的翻译代码路径（可保存在用户根目录下，方便调用）}
 或者：
-ehco “hello” | python3 ~/spark_trans.py
-
+```sh
+ehco “hello” | python3 spark_trans.py
+```
 该工具尤其适用于服务器操作、文本分析、shell脚本开发等技术环境中提升用户体验。
 支持包括英、日、韩、法、西、俄等100多种语言，详细请参照 语种列表
  
