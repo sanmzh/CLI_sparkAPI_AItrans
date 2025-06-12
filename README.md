@@ -22,6 +22,18 @@ ehco “hello” | python3 ~/spark_trans.py
 ```
  
 在此处修改为个人信息
+```py
+class get_result(object):
+    def __init__(self,host):
+        # 应用ID（到控制台获取）
+        self.APPID = "1"
+        # 接口APISercet（到控制台机器翻译服务页面获取）
+        self.Secret = "YTIyOGQ5zI4ZTI0ZGRm"
+        # 接口APIKey（到控制台机器翻译服务页面获取）
+        self.APIKey= "40b7feb52dc87ae9"
+
+```
+
 ________________________________________
 三、产品功能
 功能项	描述
